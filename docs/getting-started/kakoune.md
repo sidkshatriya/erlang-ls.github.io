@@ -8,7 +8,7 @@ Make sure you have a recent Kakoune installation. Package managers may carry ver
 
 _Tips_: 
 - Building Kakoune from [source](https://github.com/mawww/kakoune) is easy and will give you the latest features
-- If you follow the steps on this page, Erlang LS will work in Kakoune. However you will probably want to see syntax highlighting for Erlang in addition to the features that Erlang LS will provide like goto definition etc. That is available only in the `Kakoune 2021.10.28` tagged release or on current sources
+- If you follow the steps on this page, Erlang LS will work in Kakoune. However you will probably want to see syntax highlighting for Erlang in addition to the features that Erlang LS will provide like goto definition etc. That is available only in the `Kakoune 2021.10.28` tagged release (and later) or on current sources
 
 ### Step 1: Install Erlang LS
 
@@ -35,7 +35,7 @@ roots = ["rebar.config", "erlang.mk", ".git", ".hg"]
 command = "erlang_ls"
 ```
 
-_Tip:_ If you don't find `[language.erlang]` your probably have an older version of `kak-lsp`. Nevermind, you can add this whole snippet yourself in `kak-lsp.toml` without any issue)
+_Tip:_ If you don't find `[language.erlang]` your probably have an older version of `kak-lsp`. Nevermind, you can add this whole snippet yourself in `kak-lsp.toml` without any issues
 
 #### _If_ `erlang_ls` executable is on your `$PATH`
 
